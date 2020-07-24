@@ -95,6 +95,7 @@ footer {
 button {
   position: absolute;
   background-color: #4caf50;
+  min-width: 200px;
   font-size: 1.2rem;
   color: #fff;
   padding: 0.8rem 1.5rem;
@@ -106,4 +107,15 @@ button {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
   transform: translate(-50%, -50%);
   z-index: 9;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .board {
+    grid-template-columns: repeat(3, calc(33vmin - 1rem));
+    grid-template-rows: repeat(3, calc(33vmin - 1rem));
+  }
 }

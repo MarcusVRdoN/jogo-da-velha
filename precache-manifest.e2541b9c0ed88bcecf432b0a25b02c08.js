@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b99631e67bf10a8c0bf0e03aea39b58",
+    "revision": "dac987a05247a6741da9a38df1e49d88",
     "url": "/jogo-da-velha/index.html"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jogo-da-velha/precache-manifest.f1472d7edc33d72d3df9b323e17e9997.js"
+  "/jogo-da-velha/precache-manifest.e2541b9c0ed88bcecf432b0a25b02c08.js"
 );
 
 self.addEventListener('message', (event) => {
